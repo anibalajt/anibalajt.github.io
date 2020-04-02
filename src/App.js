@@ -1,4 +1,7 @@
 import React from 'react';
+import {
+  Link
+} from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
 
@@ -16,6 +19,11 @@ function App() {
           Andres Jarava
         </a>
       </header>
+      <ul>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+      </ul>
     </div>
   );
 }
