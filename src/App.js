@@ -15,9 +15,9 @@ const App = () => {
             rel="noopener noreferrer"
           >
             <img
-              className="App-profile-img"
+              className="App-gh-pages -b master -d build-img"
               alt="Andres Jarava"
-              src="https://instagram.fper8-1.fna.fbcdn.net/v/t51.2885-19/s320x320/80780901_2660126430761500_1053006361845039104_n.jpg?_nc_ht=instagram.fper8-1.fna.fbcdn.net&amp;_nc_ohc=LgSrCXIrnNcAX_9td3s&amp;oh=1c9f37a30df5cd9cdd177ee0c6168c15&amp;oe=5EB06777"
+              src="https://media-exp1.licdn.com/dms/image/C5603AQFFH7lRNFcCYQ/profile-displayphoto-shrink_400_400/0?e=1605139200&v=beta&t=f4vO0kZGBVxYboXP_VVTwyXyVHwHHFW6Un74xRHJ9Bo"
             />
           </a>
           {/* <span className="App-identity">Javascript Developer</span> */}
