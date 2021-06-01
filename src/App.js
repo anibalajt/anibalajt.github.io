@@ -15,9 +15,10 @@ const App = () => {
             rel="noopener noreferrer"
           >
             <img
+              style={{ borderRadius: "100%", height: "150px" }}
               className="App-gh-pages -b master -d build-img"
               alt="Andres Jarava"
-              src="https://media-exp1.licdn.com/dms/image/C5603AQFFH7lRNFcCYQ/profile-displayphoto-shrink_400_400/0?e=1605139200&v=beta&t=f4vO0kZGBVxYboXP_VVTwyXyVHwHHFW6Un74xRHJ9Bo"
+              src="https://scontent-syd2-1.xx.fbcdn.net/v/t1.6435-9/146239578_2210777019054103_2117667323048716222_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=I6qz2bkCG3sAX9qRd_F&tn=vE7CKiqEN6VxoJYZ&_nc_ht=scontent-syd2-1.xx&oh=c5d35291e81dea2f0deb60ef22b0694a&oe=60DA27AF"
             />
           </a>
           {/* <span className="App-identity">Javascript Developer</span> */}
@@ -28,7 +29,7 @@ const App = () => {
         </div>
         <HeaderEditor />
       </header>
-      <Instagram />
+      {/* <Instagram /> */}
     </div>
   );
 };
